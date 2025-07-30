@@ -8,7 +8,7 @@ public class ConversorTemperatura {
 }
 public class ConversorMoeda {
     public static double realParaDolar(double reais) {
-        return reais / 5.20; // valor fictício
+        return reais / 5.20;
     }
     public static double dolarParaReal(double dolares) {
         return dolares * 5.20;
@@ -32,7 +32,7 @@ public class Conversor {
             else
                 System.out.println("Resultado: " + ConversorTemperatura.fahrenheitParaCelsius(valor));
         } else {
-            System.out.println("1- Real → Dólar | 2 - Dólar → Real");
+            System.out.println("1- Real <> Dólar | 2- Dólar <> Real");
             int tipo = sc.nextInt();
             System.out.print("Informe o valor: ");
             double valor = sc.nextDouble();
