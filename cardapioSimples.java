@@ -17,5 +17,6 @@ public class HelloWord{
         }else{
           System.out.print("Select a drink to get started!");
         }      
+    sc.close();
   }
 }
